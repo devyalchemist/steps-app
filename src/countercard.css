@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: antiquewhite;
+	height: 100vh;
+}
+#counter-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+	width: 500px;
+	background-color: white;
+	align-items: center;
+}
+.counters {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+.counter {
+	font-size: 1.2rem;
+}
+.counter button {
+	padding: 0 12px;
+	width: max-content;
+	/* padding: 12px; */
+
+	background-color: rgb(200, 18, 200);
+	color: white;
+	border: none;
+	aspect-ratio: 1 / 1;
+	border-radius: 5px;
+	transition: 0.2s ease;
+}
+.counter button:hover {
+	background-color: rgb(155, 5, 155);
+}
+.value {
+	font-family: montserrat;
+}
+.content {
+	padding: 10px 20px;
+	display: inline;
+}
